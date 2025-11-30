@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Manasi Navgude — Portfolio</title>
+  <meta name="description" content="Portfolio of Manasi Manoj Navgude— developer, designer, projects, resume, contact" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Manasi<span class="accent">Navgude</span></a>
+
+      <nav id="nav" class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="controls">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">🌙</button>
+        <button id="menuBtn" class="icon-btn menu-btn" aria-label="Menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1 class="reveal">Hi, I'm <span class="accent">Manasi</span></h1>
+          <p class="lead reveal delay-1">
+            I'm a Software Engineer / Frontend Developer building attractive, accessible web apps.
+            I love clean UI, animations, and solving problems with code.
+          </p>
+
+          <p class="cta reveal delay-2">
+            <a class="btn primary" href="#projects">See my work</a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </p>
+
+          <div class="social reveal delay-3" aria-hidden="false">
+            <a href="https://github.com/devmanasii" title="GitHub" aria-label="GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/manasi-navgude-580418353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+			title="LinkedIn" aria-label="LinkedIn">LinkedIn</a>
+			 <a href="https://www.instagram.com/dev.manasii?igsh=MWE5dGJ0dmE5OW5odA==" title="Instragram" aria-label="Instragram">Instragram</a>
+            <!--<a href="#" title="Twitter" aria-label="Twitter">Twitter</a>-->
+          </div>
+        </div>
+
+        <div class="hero-card reveal delay-2" aria-hidden="true">
+          <div class="profile-photo"   role="img.jpg" aria-label="Profile photo placeholder">
+            <!-- Replace with real image   http://www.w3.org/2000/svg-->
+            <svg viewBox="0 0 200 200" xmlns="img.jpg" class="svg-avatar"  >
+              <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#6a11cb"/><stop offset="1" stop-color="#2575fc"/></linearGradient></defs>
+              <rect rx="18" width="200" height="200" fill="url(#g)"></rect>
+              <g transform="translate(30,36)" fill="#fff">
+                <circle cx="50" cy="44" r="30" opacity="0.95"></circle>
+                <rect x="8" y="90" rx="12" width="84" height="20"></rect>
+              </g>
+            </svg>
+          </div>
+          <div class="card-info">
+            <h3>Front-end focused</h3>
+            <p>HTML • JavaScript • CSS • React</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">About</h2>
+        <div class="about-grid">
+          <div class="about-text reveal delay-1">
+            <p>
+              I'm an enthusiastic developer who enjoys building polished user experiences.
+              I work with modern JavaScript, React, and CSS techniques to create performant,
+              accessible web apps. I also have experience with backend basics (Node.js) and databases.
+            </p>
+
+            <ul class="about-list">
+              <li><strong>Location:</strong> Solapur, India</li>
+              <li><strong>Email:</strong> <a href="mailto:manasinavgude@gmail.com">manasinavgude@gmail.com</a></li>
+              <li><strong>Available for:</strong> Internships, Freelance, Full-time</li>
+            </ul>
+          </div>
+
+          <div class="about-skills reveal delay-2">
+            <h3>Quick facts</h3>
+            <div class="fact-grid">
+              <div class="fact"><span class="big">Fresher</span><span>No experience</span></div>
+              <div class="fact"><span class="big">20+</span><span>Projects</span></div>
+              <div class="fact"><span class="big">100%</span><span>Responsive</span></div>
+              <div class="fact"><span class="big">A11y</span><span>Accessible</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+
+        <div class="skills-grid reveal delay-1">
+          <div class="skill-card">
+            <h4>Frontend</h4>
+            <p>HTML, CSS, JavaScript, React, Next.js</p>
+          </div>
+          <div class="skill-card">
+            <h4>Design</h4>
+            <p>Figma, UI/UX, prototyping, responsive design</p>
+          </div>
+          <div class="skill-card">
+            <h4>Tools</h4>
+            <p>Git, Webpack, Vite, ESLint, Prettier</p>
+          </div>
+          <div class="skill-card">
+            <h4>Backend (basic)</h4>
+            <p>Node.js, MySql , phpmyadmin</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+
+        <p class="muted reveal delay-1">A selection of projects — click to view details.</p>
+
+        <div class="projects-grid reveal delay-2">
+          <!-- Project 1 -->
+          <article class="project-card" tabindex="0" data-title="Image Gallery" data-desc="Responsive image gallery with filters and lazy-loading." data-link="https://github.com/devmanasii/CodeAlpha_Image-Gallary" data-img="image.png">
+            <div class="proj-thumb">
+              <svg class="proj-svg" viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="70" rx="6" fill="#e6e9ff"/></svg>
+            </div>
+            <div class="proj-body">
+              <h3>Image Gallery</h3>
+              <p class="muted"> JS • Html CSS</p>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" tabindex="0" data-title="Music Player " data-desc="Song Playlist ." data-link="https://github.com/devmanasii/CodeAlpha_Music-Player" data-img="">
+            <div class="proj-thumb"><svg class="proj-svg" viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="70" rx="6" fill="#ffe6f0"/></svg></div>
+            <div class="proj-body">
+              <h3>Music Player</h3>
+              <p class="muted">Html• Tailwind Css  • Animation JavaScript</p>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" tabindex="0" data-title=">Manasi Portfolio" data-desc="Student information ." data-link="" data-img="agri.png">
+            <div class="proj-thumb"><svg class="proj-svg" viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="70" rx="6" fill="#e6ffe6"/></svg></div>
+            <div class="proj-body">
+              <h3>Portfolio</h3>
+              <p class="muted">Html Css  • JavaScript </p>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card" tabindex="0" data-title="Calculator " data-desc="Animated calculator with history and scientific functions." data-link="https://github.com/devmanasii/CodeAlpha_Calculator" data-img="cal.png">
+            <div class="proj-thumb"><svg class="proj-svg" viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="70" rx="6" fill="#fff9e6"/></svg></div>
+            <div class="proj-body">
+              <h3>Calculator </h3>
+              <p class="muted">HTML • CSS • JavaScript</p>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal">Resume</h2>
+        <div class="resume-grid reveal delay-1">
+          <div>
+            <p>Download my resume (PDF):</p>
+            <p><a class="btn primary" href="cv.pdf" download>Download Resume</a></p>
+          </div>
+          <div>
+            <p>Not ready for download? You can view my LinkedIn:</p>
+            <p><a class="btn ghost" href="#" target="_blank" rel="noopener">View LinkedIn</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Contact</h2>
+
+        <div class="contact-grid">
+          <form class="contact-form reveal delay-1" action="mailto:manasinavgude@gmail.com" method="get" enctype="text/plain">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required placeholder="Manasi Manoj Navgude" />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required placeholder="manasinavgude@gmail.com" />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" placeholder="Hello!"></textarea>
+            </label>
+            <div class="form-actions">
+              <button class="btn primary" type="submit">Send</button>
+              <button class="btn ghost" type="reset">Reset</button>
+            </div>
+          </form>
+
+          <aside class="contact-info reveal delay-2">
+            <h3>Say hello</h3>
+            <p>Email: <a href="mailto:manasinavgude@gmail.com">manasinavgude@gmail.com</a></p>
+            <p>Phone: <a href="tel:+911234567890">+91 8530 85 6710</a></p>
+            <p>Location: India ,solapur, Shelgoan 413222</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PROJECT LIGHTBOX -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-inner">
+      <button id="modalClose" class="close" aria-label="Close">✕</button>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+      <p><a id="modalLink" class="btn primary" href="#" target="_blank" rel="noopener">View project</a></p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><span id="year"></span> Manasi Manoj Navgude— Crafted with ❤️</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
